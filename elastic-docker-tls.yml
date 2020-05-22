@@ -117,3 +117,15 @@ volumes:
 networks:
   elastic:
     driver: bridge
+
+
+config for logstash:
+
+node.name: logstash.local
+path.config: /etc/logstash/conf.d/*.conf
+xpack.monitoring.enabled: true
+xpack.monitoring.elasticsearch.username: logstash_system
+xpack.monitoring.elasticsearch.password: '<logstash_system_password>'
+xpack.monitoring.elasticsearch.hosts: [ 'https://node1.elastic.test.com:9200' ]
+xpack.monitoring.elasticsearch.ssl.certificate_authority: /etc/logstash/config/certs/ca.crt
+
