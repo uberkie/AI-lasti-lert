@@ -1,4 +1,3 @@
-"# elk" 
 Please  I am not a developer or have any programing skills this is what I got from google and and 2 weeks of struggle if there is a bug log the complaints to the various owners of the software
 
 This is the most stable i could get everything to work . Elasticsearch, kibana, astalert and Query1.AI
