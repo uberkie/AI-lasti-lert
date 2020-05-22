@@ -25,6 +25,8 @@ Copy the new passwords and save it.
 Go back to the elastic-docker-tls.yml file and paste back the xpack restart elasticsearch
 Run kibana docker open up kibana.yml and set the new password restart kibana
 Everything should be up and running now
+For futher setup please refer to https://github.com/robcowart/elastiflow in the kibana file download the  elastiflow.kibana.7.3.x.ndjson
+and in kibana >> management import the file
 
 Here is the docker for elastalert:  docker pull bitsensor/elastalert:rubiev 
 the kibana plugin https://github.com/bitsensor/elastalert-kibana-plugin/releases/download/1.1.0/elastalert-kibana-plugin-1.1.0-7.3.0.zip
